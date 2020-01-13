@@ -1,0 +1,1 @@
+export default async (url)=>{return await fetch(url).then(r=>r.json())}
